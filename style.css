@@ -415,7 +415,7 @@ cursor: pointer;
  
  .fInput{
     padding: 5px;
-    margin-left: 18px;
+    margin-left: 14px;
  }
  .fButton{
     padding: 5px;
@@ -439,6 +439,7 @@ cursor: pointer;
  @media screen and (max-width:480px) {
     nav{
       padding: 20px;
+      height: 120px;
     }
     .search{
         display: none;
@@ -449,7 +450,7 @@ cursor: pointer;
       .menuItem{
         margin: 20px;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 15px;
       }
       .slider{
         clip-path: none;
@@ -534,4 +535,217 @@ cursor: pointer;
         padding: 20px;
       }
     
+}
+@media all and (max-width: 915px) and (max-height: 412px){
+  nav{
+    padding: 20px;
+    height: 50px;
+  }
+  .logo{ 
+    width: 100px;
+    height: 20px;
+    
+  }
+  .search{
+    padding: 3px 8px;
+
+}
+
+
+.searchIcon{
+  width:15px;
+  height:15px;
+}
+.limitedOffer{
+    font-size: 15px;
+}
+.menuItem{
+  font-size: 15px;
+}
+  .sliderWrapper{
+    height: 80vh;
+  }
+  
+  .sliderBg{
+      width: 400px;
+      height: 400px;
+      
+  }
+  .sliderTitle{
+      font-size: 40px;
+      right: 5%;
+      
+  
+  }
+  .sliderImg{
+    width: 330px;
+    height: 330px;
+  
+  }
+  
+  .sliderPrice{
+      top: 15%;
+      left: 4%;
+      font-size: 50px;
+      
+  
+  
+  }
+  .buyButton{
+      top: 70%;
+      font-size: 20px;
+     
+  
+  }
+  
+
+.featureIcon{
+    width: 40px;
+    height: 40px;
+}
+.featureTitle{
+    font-size: 15px;
+    
+
+}
+.featureDesc{
+    height: 70px;
+
+}
+.product{
+  height: 100vh;
+  
+}
+.payment{
+  width: 320px;
+  height: 330px;
+  padding: 5px 20px;
+  top: 30px;
+  
+
+}
+.payTitle{
+  font-size: 13px;
+
+}
+label{
+  font-size: 11px;
+  font-weight: 300;
+
+}
+.payInput{
+  margin: 5px 0px;
+  padding: 5px;
+  
+
+}
+.payInput::placeholder{
+  font-size: 10px;
+}
+
+
+.cardIcon{
+  margin-right: 5px;
+
+}
+
+.sm{
+  width: 20%;
+
+}
+.payButton{
+  height: 25px;
+  bottom: -20px;
+  width: 100%;
+  
+
+
+}
+.close{
+  width: 15px;
+  height: 15px;
+  
+
+}
+.productImg{
+  width: 40%;
+  position: absolute;
+  top: 10%;
+  padding-left: 30px;
+
+}
+.productDetails{
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 30%;
+  padding: 50px;
+}
+.productTitle{
+  font-size: 30px;
+  
+
+}
+.productDesc{
+  font-size: 13px;
+
+
+}
+.colors,.sizes{
+  margin-bottom: 10px;
+
+}
+.color{
+  width: 25px;
+  height: 25px;
+  
+
+}
+
+.size{
+  padding: 5px 20px;
+  margin-right: 10px;
+  font-size: 10px;
+}
+.productButton{
+  padding: 8px 15px;
+  font-size: 9px;
+}
+.gallery{
+  padding: 20px;
+
+
+}
+.galleryItem{
+flex: 1;
+padding: 50px;
+
+}
+
+.galleryImg{
+  width: 100%;
+}
+.galleryTitle{
+  font-size: 20px;
+}
+
+
+.nsImg{
+  width: 100%;
+  height: 400px;
+
+}
+.nsTitle{
+  font-size: 30px;
+}
+
+.fInput{
+  padding: 5px;
+  margin-left: 13px;
+}
+
+.copyright{
+font-weight: 300;
+  font-size: 14px;
+}
 }
