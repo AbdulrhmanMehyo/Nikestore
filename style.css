@@ -687,7 +687,7 @@ label{
 
 }
 .productDesc{
-  font-size: 13px;
+  font-size: 10px;
 
 
 }
@@ -739,13 +739,58 @@ padding: 50px;
   font-size: 30px;
 }
 
+.footerLeft{
+ 
+  padding: 25px;
+}
+.fMenuTitle{
+  font-size: 14px;
+ 
+}
+.fMenuTitlee{
+  margin-left: 21px;
+  font-size: 14px;
+  
+}
+
+.fListItem{
+
+font-size: 12px;
+
+}
+.footerRight{
+  padding: 25px;
+  
+  
+}
+.footerRightMenu{
+  margin-bottom: 12px;
+  
+}
+
 .fInput{
-  padding: 5px;
+  padding: 2.5px;
   margin-left: 13px;
 }
+.fInput::placeholder{
+  font-size: 12px;
+}
+.fButton{
+  padding: 3px;
+  font-size: 12px;
+}
+
+.fIcon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor:pointer;
+}
+
+
 
 .copyright{
 font-weight: 300;
-  font-size: 14px;
+  font-size: 11px;
 }
 }
